@@ -6,7 +6,7 @@
 
 /* MARCOS - POSICIONAMIENTO */
 body {
-background-color: rgb(163, 120, 55); /* Color de Fondo */
+background-color: rgb(85, 56, 13); /* Color de Fondo */
 }
 
 .hijo1 {
@@ -23,3 +23,9 @@ background-color: rgb(163, 120, 55); /* Color de Fondo */
     margin-top: 0px; /* Encabezado Bajar o subir */
     margin-left: 0px; /* Margen Izquierda */
     margin-right: 0px; /* Margen Derecha */
+    margin-bottom: 0px; /* Bajar elementos que estan debajo*/
+    padding: 20px; /* Área*/
+    justify-content: center; /* Centrar horizontal*/
+    align-items: center; /* centrar vertical*/
+}
+
