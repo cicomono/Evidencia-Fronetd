@@ -1,0 +1,297 @@
+*
+{
+    margin: 0px; /* Márgen Plantilla GUI */
+    padding: 0px; /* Área Relleno Plantilla GUI */
+}
+
+/* MARCOS - POSICIONAMIENTO */
+html, body {
+    height: 100%; /* Altura */
+    border: 5px solid #976f24; /* Grosor y Color Área Body */
+}
+
+/* UBICACIÓN - POSICIONAMIENTO */
+.hijo1 {
+    display: flex; /* Auto Ajuste Fijo Pantalla*/
+    border: 20px solid #996518; /* Crear Borde Marco y Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    height: 200px; /*Altura - Vertical: Marco*/
+    width: 220px; /*Anchura - Horizontal: Marco*/
+    background-color: rgb(133, 98, 34); /* Color de Fondo */
+    padding: 20px; /* Área Relleno */
+    margin-top: 10px; /* Margen Bajar o Subir */
+    margin-bottom: 10px; /*Bajar Elementos Debajo*/
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    position: relative; /* Activar Desplazamiento */
+    float: left; /*Posicionar Izquierda o Derecha*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    justify-content: center; /* Centrar Horizontal */
+
+    text-align: center; /*Centrar Vertical*/
+
+    #Titulo {
+    background-color: rgb(139, 216, 132); /* Fondo Color*/
+    font: bold 20px calibri; /*Grosor y Tipo de Letra*/
+    font-family: cursive; /*Cursiva*/
+    font-size: 10px; /*Tamaño*/
+    color: rgb(0, 0, 255); /*Tamaño*/
+    text-align: right; /*Alinear Centro*/
+    border-radius: 10px; /* Redondear Esquinas Borde */
+    margin-top: 10px; /*Encabezado Bajar o subir */
+    margin-bottom: 10px; /*Bajar Elementos Debajo*/
+}
+
+#Logo1 {
+    display: flex; /* Auto Ajuste Elementos Fijos en Pantalla*/
+    justify-content: center; /* Centrar Horizontal */
+    align-items: center; /* Centrar Vertical */
+    border: 20px solid #977414; /* Color de Borde*/
+    border-radius: 10px; /* Redondear Esquinas Borde */
+    height: 100px; /* Altura */
+    width:160px; /* Ancho */
+}
+
+#Logo1 img {
+    height: 100px; /* Altura */
+    width: 150px; /* Ancho */
+    border: 10px solid rgb(148, 110, 38); /*Marco*/
+    border-radius: 15px; /* Redondear Esquinas Borde */
+    padding: 10px; /* Área Relleno */
+}
+
+.padre1 {
+    display: flex; /* Auto Ajuste Fijo Pantalla*/
+    flex-direction: row; /*Separar Fila - Columna*/
+    border: 20px solid #8c9940; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: #c09727;
+    height:px; /*altura - vertical*/
+    width: px; /*anchura - Horizontal*/
+    margin-top: 20px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    margin-bottom: 20px; /*Bajar Elementos Debajo*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posicionar Izquierda o Derecha*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    padding: 20px; /* Área Relleno */
+}
+
+.hij4{
+    display: flex; /* Auto Ajuste Fijo Pantalla*/
+    border: 20px solid #827870; /* Crear Borde Marco y Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    height: 150px; /*Altura - Vertical: Marco*/
+    width: 200px; /*Anchura - Horizontal: Marco*/
+    background-color: rgb(112, 104, 126); /* Color de Fondo */
+    padding: 20px; /* Área Relleno */
+    margin-top: 10px; /* Margen oBajar o Subir */
+    margin-bottom: 10px; /*Bajar Elementos Debajo*/
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    position: relative; /* Activar Desplazamiento */
+    float: left; /*Posicionar Izquierda o Derecha*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    justify-content: center; /* Centrar Horizontal */
+    align-items: center; /*Alinear Centro*/
+    text-align: center; /*Centrar Vertical*/
+}
+
+#Titulo4 {
+    background-color: rgb(109, 189, 192); /*Fondo Color*/
+    font: bold 20px calibri; /*Grosor y Tipo de Letra*/
+    font-family: cursive; /*Cursiva*/
+    font-size: 10px; /*Tamaño*/
+    color: blue; /*Tamaño*/
+    text-align: center; /*Alinear Centro*/
+    border-radius: 10px; /*Redondear Esquinas Borde*/
+    margin-top: 10px; /*Encabezado Bajar o Subir*/
+    margin-bottom: 10px; /*Bajar Elementos Debajo*/
+}
+
+#Logo4 {
+    display: flex; /* Auto Ajuste Elementos Fijos en Pantalla*/
+    justify-content: center; /* Centrar Horizontal */
+    align-items: center; /* Centrar Vertical */
+    border: 20px solid #b2d441; /* Color de Borde */
+    border-radius: 10px; /* Redondear Esquinas Borde */
+    height: px; /* Altura */
+    width: px; /* Ancho */
+}
+
+#Logo4 img {
+    height: 100px; /* Altura */
+    width: 150px; /* Ancho */
+    border: 10px solid red; /*Marco*/
+    border-radius: 15px; /* Redondear Esquinas Borde */
+    padding: 10px; /* Área Relleno */
+}
+
+.hijo5 {
+    display: flex; /* Auto Ajuste Fijo Pantalla*/
+    border: 20px solid #782970; /* Crear Borde Marco y Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    height: auto; /*Altura - Vertical: Marco*/
+    width: auto px; /*Anchura - Horizontal: Marco*/
+    background-color: rgb(123, 225, 183); /* Color de Fondo */
+    padding: 20px; /* Área Relleno */
+    margin-top: 10px; /* Margen Bajar o Subir */
+    margin-bottom: 10px; /*Bajar Elementos Debajo*/
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    position: relative; /* Activar Desplazamiento */
+    float: left; /*Posicionar Izquierda o Derecha*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    justify-content: center; /* Centrar Horizontal */
+    align-items: center; /*Alinear Centro*/
+    text-align: center; /*Centrar Vertical*/
+}
+
+#Titulo5 {
+    background-color: rgb(109, 109, 182); /*Fondo Color*/
+    font: bold 20px calibri; /*Grosor y Tipo de Letra*/
+    font-family: cursive; /*Cursiva*/
+    font-size: 10px; /*Tamaño*/
+    color: blue; /*Tamaño*/
+    text-align: center; /*Alinear Centro*/
+    border-radius: 10px; /* Redondear Esquinas Borde */
+    margin-top: 10px; /*Encabezado Bajar o Subir */
+    margin-bottom: 10px; /*Bajar Elementos Debajo*/
+}
+
+#Logo5 {
+    display: flex; /* Auto Ajuste Elementos Fijos en Pantalla*/
+    justify-content: center; /* Centrar Horizontal */
+    align-items: center; /* Centrar Vertical */
+    border: 20px solid #2b6441; /* Color de Borde */
+    border-radius: 10px; /* Redondear Esquinas Borde */
+    height: px; /* Altura */
+    width: px; /* Ancho */
+}
+
+#Logo6 img {
+    height: 150px; /* Altura */
+    width: 200px; /* Ancho */
+    border: 10px solid red; /*Marco*/
+    border-radius: 15px; /* Redondear Esquinas Borde */
+    padding: 10px; /* Área Relleno */
+}
+
+.padre2 {
+    display: flex; /* Auto Ajuste Fijo Pantalla*/
+    flex-direction: row; /*Separar Fila - Columna*/
+    border: 20px solid #c4921d; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: #217788;
+    height: px; /*altura - vertical*/
+    width: px; /*anchura - Horizontal*/
+    margin-top: 20px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    margin-bottom: 20px; /*Bajar Elementos Debajo*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posicionar Izquierda o Derecha*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    padding: 20px; /* Área Relleno */
+}
+
+.hijo7 {
+    display: flex; /* Auto Ajuste Fijo Pantalla*/
+    border: 20px solid #782970; /* Crear Borde Marco y Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    height: px; /*Altura - Vertical: Marco*/
+    width: px; /*Anchura - Horizontal: Marco*/
+    background-color: rgb(123, 225, 183); /* Color de Fondo */
+    padding: 20px; /* Área Relleno */
+    margin-top: 10px; /* Margen Bajar o Subir */
+    margin-bottom: 10px; /*Bajar Elementos Debajo*/
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    position: relative; /* Activar Desplazamiento */
+    float: left; /*Posicionar Izquierda o Derecha*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    justify-content: center; /* Centrar Horizontal */
+    align-items: center; /*Alinear Centro*/
+    text-align: center; /*Centrar Vertical*/
+}
+
+#Titulo7 {
+    background-color: rgb(109, 189, 192); /*Fondo Color*/
+    font: bold 20px calibri; /*Grosor y Tipo de Letra*/
+    font-family: cursive; /*Cursiva*/
+    font-size: 10px; /*Tamaño*/
+    color: blue; /*Tamaño*/
+    text-align: left; /*Alinear Centro*/
+    border-radius: 10px; /*Redondear Esquinas Borde*/
+    margin-top: 10px; /*Encabezado Bajar o Subir*/
+    margin-bottom: 10px; /*Bajar Elementos Debajo*/
+}
+
+#Logo7 {
+    display: flex; /* Auto Ajuste Elementos Fijos en Pantalla*/
+    justify-content: center; /* Centrar Horizontal */
+    align-items: center; /* Centrar Vertical */
+    border: 20px solid #b2d441; /* Color de Borde */
+    border-radius: 10px; /* Redondear Esquinas Borde */
+    height: px; /* Altura */
+    width: px; /* Ancho */
+}
+
+#Logo7 img {
+    height: 150px; /* Altura */
+    width: 200px; /* Ancho */
+    border: 10px solid red; /*Marco*/
+    border-radius: 15px; /* Redondear Esquinas Borde */
+    padding: 10px; /* Área Relleno */
+}
+
+.padre3 {
+    display: flex; /* Auto Ajuste Fijo Pantalla*/
+    flex-direction: row; /*Separar Fila - Columna*/
+    border: 20px solid #77afeff; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: #fac545d;
+    height: px; /*altura - vertical*/
+    width: px; /*anchura - Horizontal*/
+    margin-top: 20px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    margin-bottom: 20px; /*Bajar Elementos Debajo*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posicionar Izquierda o Derecha*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    padding: 20px; /* Área Relleno */
+}
+
+.abuelo {
+    display: flex; /* Auto Ajuste Fijo Pantalla */
+    flex-direction: column; /*Jugar: Fila (rows) - Columna*/
+    border: 20px solid #e8a769; /* Color de Borde */
+    border-radius: 20px; /*Redondea esquinas borde*/
+    background-color: #977897;
+    height:px; /*Altura - vertical*/
+    width: px; /*anchura - Horizontal*/
+    margin-top: 0px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    margin-bottom: 20px; /*Bajar Elementos Debajo*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posicionar Izquierda o Derecha*/
+    left: 90px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    padding: 20px; /* Área Relleno */
+}
+
+.padre1, .padre2, .padre3 { /*Es Mejor la clase Abuelo*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    left: 0px; /*Coordenadas Horizontal*/
+    top: 0px; /*Coordenadas Vertical*/
+}

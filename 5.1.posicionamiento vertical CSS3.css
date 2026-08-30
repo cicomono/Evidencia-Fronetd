@@ -1,0 +1,172 @@
+*
+ {
+    margin: 0px; /* margen plantilla */
+    padding: 0px; /* area relleno plantilla */
+}
+
+/* MARCOS - POSICIONAMIENTO */
+HTML, body {
+    height: 100%;
+    border: 5px solid rgb(199, 116, 224);
+}
+
+/* UBICACION - POSICIONAMIENTO */
+
+.hijo1 {
+    border: 20px solid salmon;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet; /* Color de Fondo */
+    margin-top: 10px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda */
+    margin-right: 10px; /* Margen Derecha */
+    margin-bottom: 10px; /* Bajar Elementos Debajo */
+    position: relative; /* Activar Posicionamiento de Coordenadas */
+    float: left; /* Posicionar Izquierda o Derecha */
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+}
+
+.padre1 {
+    display: flex;
+    border: 20px solid #c889c2; /* Color de Borde */
+    border-radius: 10px; /* Redondea esquinas borde */
+    background-color: #f7cffe;
+    height: auto; /* Altura - Vertical */ 
+    width: auto; /* Anchura - Horizontal */
+    margin-top: 20px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda */
+    margin-right: 10px; /* Margen Derecha */
+    margin-bottom: 20px; /* Bajar Elementos Debajo */
+    position: relative; /* Activar Posicionamiento de Coordenadas */
+    float: left; /* Posicionar Izquierda o Derecha */
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    padding: 20px;
+}
+
+.hijo2 {
+    border: 20px solid salmon;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet; /* Color de Fondo */
+    margin-top: 10px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda */
+    margin-right: 10px; /* Margen Derecha */
+    margin-bottom: 10px; /* Bajar Elementos Debajo */
+    position: relative; /* Activar Posicionamiento de Coordenadas */
+    float: left; /* Posicionar Izquierda o Derecha */
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+}
+
+.padre2 {
+    display: flex;
+    border: 20px solid #c889c2; /* Color de Borde */
+    border-radius: 10px; /* Redondea esquinas borde */
+    background-color: #f5e2fa;
+    height: auto; /* Altura - Vertical */ 
+    width: auto; /* Anchura - Horizontal */
+    margin-top: 20px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda */
+    margin-right: 10px; /* Margen Derecha */
+    margin-bottom: 20px; /* Bajar Elementos Debajo */
+    position: relative; /* Activar Posicionamiento de Coordenadas */
+    float: left; /* Posicionar Izquierda o Derecha */
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    padding: 20px;
+}
+
+.hijo3 {
+    border: 20px solid salmon;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet; /* Color de Fondo */
+    margin-top: 10px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda */
+    margin-right: 10px; /* Margen Derecha */
+    margin-bottom: 10px; /* Bajar Elementos Debajo */
+    position: relative; /* Activar Posicionamiento de Coordenadas */
+    float: left; /* Posicionar Izquierda o Derecha */
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+}
+
+.padre3 {
+    display: flex;
+    border: 20px solid #c889c2; /* Color de Borde */
+    border-radius: 10px; /* Redondea esquinas borde */
+    background-color: #f5e2fa;
+    height: auto; /* Altura - Vertical */ 
+    width: auto; /* Anchura - Horizontal */
+    margin-top: 20px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda */
+    margin-right: 10px; /* Margen Derecha */
+    margin-bottom: 20px; /* Bajar Elementos Debajo */
+    position: relative; /* Activar Posicionamiento de Coordenadas */
+    float: left; /* Posicionar Izquierda o Derecha */
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    padding: 20px;
+}
+
+.abuelo1 {
+    display: flex;
+    flex-direction: column; /* Ubica los elementos en fila */
+    border: 20px solid #af0f9f; /* Color de Borde */
+    border-radius: 10px; /* Redondea esquinas borde */
+    background-color: #3f140d;
+    height: auto; /* Altura - Vertical */
+    width: auto; /* Anchura - Horizontal */
+    margin-top: 20px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda */
+    margin-right: 10px; /* Margen Derecha */
+    margin-bottom: 20px; /* Bajar Elementos Debajo */
+    position: relative; /* Activar Posicionamiento de Coordenadas */
+    float: left; /* Posicionar Izquierda o Derecha */
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    padding: 10px; /* Área Relleno Abuelo */
+}
+
+.abuelo2 {
+    display: flex;
+    flex-direction: column; /* Ubica los elementos en fila */
+    border: 20px solid #af0f9f; /* Color de Borde */
+    border-radius: 10px; /* Redondea esquinas borde */
+    background-color: #3f140d;
+    height: auto; /* Altura - Vertical */
+    width: auto; /* Anchura - Horizontal */
+    margin-top: 20px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda */
+    margin-right: 10px; /* Margen Derecha */
+    margin-bottom: 20px; /* Bajar Elementos Debajo */
+    position: relative; /* Activar Posicionamiento de Coordenadas */
+    float: left; /* Posicionar Izquierda o Derecha */
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    padding: 10px; /* Área Relleno Abuelo */
+}
+
+.abuelo {
+    display: flex; /* Auto Ajuste Fijo Pantalla */
+    flex-direction: column; /* Jugar: Fila - Columna */
+    border: 20px solid #0f24af; /* Color de Borde */
+    border-radius: 10px; /* Redondea esquinas borde */
+    background-color: #dab8d5; /* Fondo Color */
+    height: auto; /* Altura - Vertical */
+    width: auto; /* Anchura - Horizontal */
+    margin-top: 20px; /* Margen Bajar o Subir */
+    margin-left: 10px; /* Margen Izquierda */
+    margin-right: 10px; /* Margen Derecha */
+    margin-bottom: 10px; /* Bajar Elementos Debajo */
+    position: relative; /* Activar Posicionamiento de Coordenadas */
+    float: left; /* Posicionar Izquierda o Derecha */
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    padding: 20px; /* Área Relleno */
+}
