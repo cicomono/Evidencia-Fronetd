@@ -6,17 +6,17 @@
 
 /* MARCOS - POSICIONAMIENTO */
 body {
-background-color: rgb(62, 53, 80); /* Color de Fondo */
+background-color: rgb(163, 120, 55); /* Color de Fondo */
 }
 
 .hijo1 {
     display: flex; /* Clases horizontal */
-    border: 2px solid #1128d4; /* Color de Borde */
+    border: 2px solid #9c8537; /* Color de Borde */
     border-radius: 10px; /* Redondea esquinas */
-    background-color: rgb(123, 225, 181); /* Color de Fondo */
+    background-color: rgb(212, 121, 16); /* Color de Fondo */
     height: auto; /* Altura */
     width: auto; /* Anchura */
-    position: relative; /* Activar Posicionamiento de Coordenadas */
+    position: relative; /* Activar Posicionamiesnto de Coordenadas */
     float: left; /* Posición Izquierda */
     left: 0px; /* Desplazamiento Horizontal */
     top: 0px; /* Desplazamiento Vertical */
