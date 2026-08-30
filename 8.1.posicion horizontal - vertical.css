@@ -1,0 +1,25 @@
+*
+{
+    margin: 0px; /* Márgen Plantilla GUI */
+    padding: 0px; /* Área Resultado Plantilla GUI */
+}
+
+/* MARCOS - POSICIONAMIENTO */
+body {
+background-color: rgb(62, 53, 80); /* Color de Fondo */
+}
+
+.hijo1 {
+    display: flex; /* Clases horizontal */
+    border: 2px solid #1128d4; /* Color de Borde */
+    border-radius: 10px; /* Redondea esquinas */
+    background-color: rgb(123, 225, 181); /* Color de Fondo */
+    height: auto; /* Altura */
+    width: auto; /* Anchura */
+    position: relative; /* Activar Posicionamiento de Coordenadas */
+    float: left; /* Posición Izquierda */
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 0px; /* Encabezado Bajar o subir */
+    margin-left: 0px; /* Margen Izquierda */
+    margin-right: 0px; /* Margen Derecha */
