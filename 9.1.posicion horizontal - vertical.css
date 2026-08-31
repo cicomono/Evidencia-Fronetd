@@ -1,0 +1,544 @@
+*
+{
+    margin: 0px; /* Márgen Plantilla GUI */
+    padding: 0px; /* Área Resultado Plantilla GUI */
+}
+
+/* MARCOS - POSICIONAMIENTO */
+body {
+background-color: rgb(146, 97, 24); /* Color de Fondo */
+}
+
+.hijo1 {
+    display: flex; /* Clases horizontal */
+    border: 2px solid #be981b; /* Color de Borde */
+    border-radius: 10px; /* Redondea esquinas */
+    background-color: rgb(212, 201, 187); /* Color de Fondo */
+    height: auto; /* Altura */
+    width: auto; /* Anchura */
+    position: relative; /* Activar Posicionamiesnto de Coordenadas */
+    float: left; /* Posición Izquierda */
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 0px; /* Encabezado Bajar o subir */
+    margin-left: 0px; /* Margen Izquierda */
+    margin-right: 0px; /* Margen Derecha */
+    margin-bottom: 0px; /* Bajar elementos que estan debajo*/
+    padding: 20px; /* Área*/
+    justify-content: center; /* Centrar horizontal*/
+    align-items: center; /* centrar vertical*/
+}
+
+#Titulo1 {
+    margin-top: 10px; /*Encabezado Bajar o subir */
+    margin-bottom: 10px; /*Bajar elementos que estan debajo*/
+    font: calibri 20px; /*Tipo Letra - Tamaño*/
+    font-family: cursive; /*Cursiva*/
+    font-size: 10px; /*Tamaño*/ /*JUGAR*/
+    color: rgb(63, 46, 10); /*Color*/
+    text-align: center; /*Centrar Vertical*/ /*JUGAR*/
+    background-color: rgb(181, 224, 178); /*Fondo Color*/
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo1 {
+    display: flex; /*clases horizontal*/
+    justify-content: center; /*centrar horizontal*/
+    align-items: center; /*centrar vertical*/
+    border: 20px solid #051b18; /*Color de Borde*/
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+
+#Logo1 img {
+    width: 200px; /*anchura*/
+    height: 150px; /*altura*/
+    border: 10px solid rgb(231, 228, 15); /*Marco*/
+    border-radius: 15px; /*Esquinas Redondeadas*/
+    padding: 10px; /* Área Relleno */
+}
+
+.padre1 {
+    display: flex; /* clases horizontal */
+    flex-direction: row; /*Fila (row) - Columna*/ /*JUGAR*/
+    border: 20px solid #722525; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: #bfa0b4; /*Fondo Color*/
+    height: auto; /*Altura - horizontal*/
+    width: auto; /*Anchura - horizontal*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 20px; /*Encabezado Bajar o subir*/
+    margin-left: 10px; /* Margen Izquierda */
+    margin-right: 10px; /* Margen Derecha*/
+    margin-bottom: 0px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /*Área*/
+    gap: 20px; /* Separación visual entre elementos. */ /*JUGAR*/
+}
+
+.hijo2 {
+    display: flex; /* clases horizontal */
+    border: 20px solid #0e9720; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: rgb(123, 225, 181); /* Color de Fondo */
+    height: auto; /*altura*/
+    width: auto; /*anchura*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 0px; /*Encabezado Bajar o subir */
+    margin-left: 0px; /* Margen Izquierda*/
+    margin-right: 0px; /* Margen Derecha*/
+    margin-bottom: 0px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /*Área*/
+    justify-content: center; /*centrar horizontal*/
+    align-items: center; /*centrar vertical*/
+}
+
+#Titulo2 {
+    margin-top: 10px; /*Encabezado Bajar o subir */
+    margin-bottom: 10px; /*Bajar elementos que estan debajo*/
+    font: calibri 20px; /*Tipo Letra - Tamaño*/
+    font-family: cursive; /*Cursiva*/
+    font-size: 10px; /*Tamaño*/ /*JUGAR*/
+    color: blue; /*Color*/
+    text-align: center; /*Centrar Vertical*/ /*JUGAR*/
+    background-color: rgb(109, 189, 102); /*Fondo Color*/
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo2 {
+    display: flex; /* clases horizontal */
+    justify-content: center; /*centrar horizontal*/
+    align-items: center; /*centrar vertical*/
+    border: 20px solid #1a630b; /*Color de Borde*/
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo2 img {
+    width: 200px; /*anchura*/
+    height: 150px; /*altura*/
+    border: 10px solid red; /*Color de Borde*/
+    border-radius: 15px; /*Esquinas Redondeadas*/
+    padding: 10px; /*Área*/
+}
+
+.padre2 {
+    display: flex; /* clases horizontal */
+    flex-direction: rows; /*Fila (row) - Columna*/ /*JUGAR*/
+    border: 20px solid #461b1b; /*Color de Borde*/
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: #c98ab3; /*Fondo Color*/
+    height: auto; /*Altura - Vertical*/
+    width: auto; /*Anchura - Horizontal*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 20px; /*Encabezado Bajar o subir*/
+    margin-left: 10px; /*Margen Izquierda*/
+    margin-right: 10px; /*Margen Derecha*/
+    margin-bottom: 10px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /*Área*/
+    gap: 20px; /* Separación visual entre elementos. */ /*JUGAR*/
+}
+
+    .hijo3 {
+    display: flex; /* clases horizontal */
+    border: 20px solid #45ee45; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: rgb(123, 225, 181); /* Color de Fondo */
+    height: auto; /*altura*/
+    width: auto; /*anchura*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 0px; /*Encabezado Bajar o subir */
+    margin-left: 0px; /* Margen Izquierda*/
+    margin-right: 0px; /* Margen Derecha*/
+    margin-bottom: 0px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /*Área*/
+    justify-content: center; /*centrar horizontal*/
+    align-items: center; /*centrar vertical*/
+}
+
+#Titulo3 {
+    margin-top: 10px; /*Encabezado Bajar o subir */
+    margin-bottom: 10px; /*Bajar elementos que estan debajo*/
+    font: calibri 20px; /*Tipo Letra - Tamaño*/
+    font-family: cursive; /*Cursiva*/
+    font-size: 10px; /*Tamaño*/ /*JUGAR*/
+    color: blue; /*Color*/
+    text-align: center; /*Centrar Vertical*/ /*JUGAR*/
+    background-color: rgb(110, 148, 107); /*Fondo Color*/
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo3 {
+    display: flex; /* clases horizontal */
+    justify-content: center; /*centrar horizontal*/
+    align-items: center; /*centrar vertical*/
+    border: 20px solid #2bd411; /*Color de Borde */
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo3 img {
+    width: 200px; /*anchura*/
+    height: 150px; /*altura*/
+    border: 10px solid red; /* Color de Borde */
+    border-radius: 15px; /*Esquinas Redondeadas*/
+    padding: 10px; /*Área*/
+}
+
+.padre3 {
+    display: flex; /* clases horizontal */
+    flex-direction: row; /*Fila (row) - Columna*/ /*JUGAR*/
+    border: 20px solid #921d1d; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: #bfa0b4; /*Fondo Color*/
+    height: auto; /*altura - Vertical*/
+    width: auto; /*anchura - Horizontal*/
+    position: relative; /* Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 20px; /*Encabezado Bajar o subir */
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    margin-bottom: 20px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /*Área*/
+    justify-content: center; /*centrar horizontal*/
+    align-items: center; /*centrar vertical*/
+}
+
+.hijo3 {
+    display: flex; /* clases horizontal */
+    border: 20px solid #1128d4; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: rgb(123, 225, 181); /* Color de Fondo */
+    height: auto; /*altura*/
+    width: auto; /*anchura*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 0px; /*Encabezado Bajar o subir */
+    margin-left: 0px; /* Margen Izquierda*/
+    margin-right: 0px; /* Margen Derecha*/
+    margin-bottom: 0px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /*Área*/
+    justify-content: center; /*centrar horizontal*/
+    align-items: center; /*centrar vertical*/
+}
+
+#Titulo3 {
+    margin-top: 10px; /*Encabezado Bajar o subir */
+    margin-bottom: 10px; /*Bajar elementos que estan debajo*/
+    font: calibri 20px; /*Tipo Letra - Tamaño*/
+    font-family: cursive; /*Cursiva*/
+    font-size: 10px; /*Tamaño*/ /*JUGAR*/
+    color: blue; /*Color*/
+    text-align: center; /*Centrar Vertical*/
+    background-color: rgb(109, 189, 102); /*Fondo Color*/
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo3 {
+    display: flex; /* clases horizontal */
+    justify-content: center; /*centrar horizontal*/
+    align-items: center; /*centrar vertical*/
+    border: 20px solid #104707; /*Color de Borde */
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo3 img {
+    width: 200px; /*anchura*/
+    height: 150px; /*altura*/
+    border: 10px solid red; /* Color de Borde */
+    border-radius: 15px; /*Esquinas Redondeadas*/
+    padding: 10px; /*Área*/
+}
+
+.padre3 {
+    display: flex; /* clases horizontal */
+    flex-direction: rows; /*Fila (row) - Columna*/ /*JUGAR*/
+    border: 20px solid #921d1d; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: #bfa0b4; /*Fondo Color*/
+    height: auto; /*altura - Vertical*/
+    width: auto; /*anchura - Horizontal*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 20px; /*Encabezado Bajar o subir */
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    margin-bottom: 20px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /*Área*/
+    gap: 20px; /* Separación visual entre elementos. */
+}
+
+.abuelo1 {
+    display: flex; /* clases horizontal */
+    flex-direction: column; /*Fila (row) - Columna*/
+    background-color: #dacf71; /*Fondo Color*/
+    border: 20px solid #02600c; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    height: auto; /*Altura - Vertical*/
+    width: auto; /*Anchura - Horizontal*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 300px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 20px; /*Encabezado Bajar o subir */
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    margin-bottom: 30px; /*Bajar elementos que estan debajo*/
+    padding: 10px; /*Área*/
+    gap: 20px; /* Separación visual entre elementos. */ /*JUGAR*/
+}
+
+/* UBICACIÓN - POSICIONAMIENTO */
+/* ============================================================ */
+/*AJUSTE EDUCATIVO - TRES COLUMNAS VERTICALES
+------------------------------------------------------------
+Ejercicio Marcos, Coordenadas y Organización Básica.
+============================================================ 
+
+/* Marcos internos de la columna 1. */
+.hijo4 {
+    display: flex; /* clases horizontal */
+    border: 20px solid #d411d4; /* Color Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: rgb(6, 134, 79); /* Color de Fondo */
+    height: auto; /*Altura*/
+    width: auto; /*Anchura*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 0px; /*Encabezado Bajar o subir */
+    margin-left: 0px; /* Margen Izquierda*/
+    margin-right: 0px; /* Margen Derecha*/
+    margin-bottom: 0px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /*Área*/
+    justify-content: center; /* Centrado horizontal del header interno. */
+    align-items: center; /* Centrado vertical del header interno. */
+    text-align: center; /*Centrar Vertical*/
+    }
+ 
+#Titulo4 {
+    margin-top: 10px; /*Encabezado Bajar o subir */
+    margin-bottom: 10px; /*Bajar elementos que estan debajo*/
+    font-family: cursive; /*Cursiva*/
+    font-size: 10px; /*Tamaño*/ /*JUGAR*/
+    color: blue; /*Color*/
+    text-align: center; /*Centrar Vertical*/ /*JUGAR*/
+    background-color: rgb(109, 189, 102); /*Fondo Color*/
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo4 {
+    display: flex; /* clases horizontal */
+    justify-content: center; /*centrar horizontal*/
+    align-items: center; /*centrar vertical*/
+    border: 20px solid #5f156e; /*Color de Borde */
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo4 img {
+    width: 200px; /*anchura*/ /*JUGAR*/
+    height: 150px; /*altura*/ /*JUGAR*/
+    border: 10px solid red; /*Color de Borde */
+    border-radius: 15px; /*Esquinas Redondeadas*/
+    padding: 10px; /*Área*/
+}
+
+/* COLUMNA 1: padre4 como primera columna independiente. */
+.padre4 {
+    display: flex; /* Contenedor Responsive Flexible */
+    flex-direction: column; /*Jugar: Fila (row) - Columna*/ /*JUGAR*/
+    border: 20px solid #5630ad; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: silver; /*Fondo Color*/
+    height: auto; /*altura - Vertical*/
+    width: auto; /*altura - Horizontal*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 20px; /*Encabezado Bajar o subir */
+    margin-left: 10px; /* Margen Izquierda*/
+    margin-right: 10px; /* Margen Derecha*/
+    margin-bottom: 0px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /*Área*/
+    gap: 20px; /* Separación visual entre elementos. */ /*JUGAR*/
+}
+
+/* Marcos internos de la columna 2. */
+.hijo5 {
+    display: flex; /* Centra el contenido de cada marco interno. */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical del header interno. */
+    border: 20px solid #1d0be5; /* Conserva el borde magenta de la */
+    border-radius: 10px; /* Conserva las esquinas redondeadas. */
+    height: auto; /* Mantiene la altura de referencia del ejercicio. */
+    width: 313px; /* Mantiene la anchura de referencia del ejercicio. */
+    background-color: rgb(139, 112, 130); /* Conserva el fondo ver */
+    margin-top: 0px; /* Encabezado Bajar o subir */
+    margin-left: 0px; /* Margen Izquierda*/
+    margin-right: 0px; /* Margen Derecha*/
+    margin-bottom: 0px; /* Bajar elementos que estan debajo*/
+    padding: 20px; /* Área interna del marco. */
+    position: relative; /* Mantiene la lógica de posicionamiento usa */
+    left: 0px; /* Evita que el marco se salga de la columna. */
+    top: 0px; /* Evita desplazamiento vertical adicional. */
+    margin-left: 0px; /* Permite centrar el marco con */
+    /*box-sizing: border-box; /* El ancho incluye borde y padding.*/
+} 
+
+#Titulo5 {
+    margin-top: 10px; /*Encabezado Bajar o subir */
+    margin-bottom: 10px; /*Bajar elementos que estan debajo*/
+    font: calibri 20px; /*Tipo Letra - Tamaño*/
+    font-family: cursive; /*Cursiva*/
+    font-size: 10px; /*Tamaño*/ /*JUGAR*/
+    color: blue; /*Color*/
+    text-align: center; /*Centrar Vertical*/
+    background-color: rgb(109, 189, 102); /*Fondo Color*/
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo5 {
+    display: flex; /* clases horizontal */
+    justify-content: center; /*centrar horizontal*/
+    align-items: center; /*centrar vertical*/
+    border: 20px solid #a155b3; /*Color de Borde */
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo5 img {
+    width: 200px; /*anchura*/
+    height: 150px; /*altura*/
+    border: 10px solid red; /* Color de Borde */
+    border-radius: 15px; /*Esquinas Redondeadas*/
+    padding: 10px; /*Área*/
+}
+
+/* COLUMNA 2: clase nueva e independiente para la segunda columna. */
+.padre5 {
+    display: flex; /* Contenedor Responsive Flexible */
+    flex-direction: column; /*Jugar: Fila (rows) - Columna*/
+    border: 20px solid #4e08f1; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: #5e9479; /*Fondo Color*/
+    height: auto; /*altura - Vertical*/
+    width: auto; /*anchura - Horizontal*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 0px; /*Encabezado Bajar o subir */
+    margin-left: 0px; /* Margen Izquierda*/
+    margin-right: 0px; /* Margen Derecha*/
+    margin-bottom: 0px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /*Area*/
+    gap: 20px; /* Separación visual entre elementos. */
+}
+
+/* Marcos internos de la columna 3. JUGAR*/
+.hijo6 {
+    display: flex; /* Centra el contenido de cada marco interno. */
+    justify-content: center; /* Centrado horizontal del header interno. */
+    align-items: center; /* Centrado vertical del header interno. */
+    border: 20px solid #14353a; /* Conserva el borde magenta de */
+    border-radius: 10px; /* Conserva las esquinas redondeadas. */
+    height: auto; /* Mantiene la altura de referencia del ejercicio. */
+    width: 313px; /* Mantiene la anchura de referencia del ejercicio. */
+    background-color: rgb(156, 76, 129); /* Conserva el fondo ver */
+    margin-top: 0px; /*Encabezado Bajar o subir */
+    margin-left: 0px; /* Margen Izquierda*/
+    margin-right: 0px; /* Margen Derecha*/
+    margin-bottom: 0px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /* Área interna del marco. */
+    position: relative; /* Mantiene la lógica de posicionamiento usa */
+    left: 0px; /* Evita que el marco se salga de la columna. */
+    top: 0px; /* Evita desplazamiento vertical adicional. */
+    margin-left: 0px; /* Quita desplazamiento interno para centrar d */
+    /*box-sizing: border-box; /* El ancho incluye borde y padding*/
+}
+
+#Titulo6 {
+    margin-top: 10px; /*Encabezado Bajar o subir */
+    margin-bottom: 10px; /*Bajar elementos que estan debajo*/
+    font: calibri 20px; /*Tipo Letra - Tamaño*/
+    font-family: cursive; /*Cursiva*/
+    font-size: 10px; /*Tamaño*/
+    color: blue; /*Color*/
+    text-align: center; /*Centrar Vertical*/ /*JUGAR*/
+    background-color: rgb(109, 189, 102); /*Fondo Color*/
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo6 {
+    display: flex; /* clases horizontal */
+    justify-content: center; /*centrar horizontal*/
+    align-items: center; /*centrar vertical*/
+    border: 20px solid #9968a3; /*Color de Borde */
+    border-radius: 10px; /*Esquinas Redondeadas*/
+}
+
+#Logo6 img {
+    width: 200px; /*anchura*/ /*JUGAR*/
+    height: 150px; /*altura*/ /*JUGAR*/
+    border: 10px solid red;
+    border-radius: 15px; /*Esquinas Redondeadas*/
+    padding: 10px; /*Área*/
+}
+
+/*COLUMNA 3: clase nueva e independiente para la tercera columna. */
+.padre6 {
+    display: flex; /* Contenedor Responsive Flexible */
+    flex-direction: column; /*Jugar: Fila (row) - Columna*/ /*JUGAR*/
+    border: 20px solid #4e08f1; /* Color de Borde */
+    border-radius: 10px; /*Redondea esquinas borde*/
+    background-color: #5e9479; /*Fondo Color*/
+    height: auto; /*altura - Vertical*/
+    width: auto; /*anchura - Horizontal*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 0px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 0px; /*Encabezado Bajar o subir */
+    margin-left: 0px; /* Margen Izquierda*/
+    margin-right: 0px; /* Margen Derecha*/
+    margin-bottom: 0px; /*Bajar elementos que estan debajo*/
+    padding: 20px; /*Área*/
+    gap: 20px; /* Separación visual entre elementos. */
+    }
+
+    .abuelo2 {
+    display: flex; /* Flexbox permite ubicar las tres columnas una a una */
+    flex-direction: row; /* Mantiene las columnas en sentido horizontal */
+    align-items: flex-start; /* Alinea las tres columnas desde la parte superior */
+    border: solid 20px #a74235; /* Marco café independiente de la */
+    background-color: #afa87e; /* Mantiene el color de fondo del e */
+    border-radius: 20px;
+    height: auto; /*Altura - Vertical*/
+    width: auto; /*Anchura - Horizontal*/
+    position: relative; /*Activar Posicionamiento de Coordenadas*/
+    float: left; /*Posición Izquierda*/
+    left: 200px; /* Desplazamiento Horizontal */
+    top: 0px; /* Desplazamiento Vertical */
+    margin-top: 0px; /*Encabezado Bajar o subir */
+    margin-left: 0px; /* Margen Izquierda*/
+    margin-right: 0px; /* Margen Derecha*/
+    margin-bottom: 10px; /*Bajar elementos que estan debajo*/
+    padding: 10px; /*Área*/
+    gap: 20px; /* Separación visual entre elementos. */
+}
