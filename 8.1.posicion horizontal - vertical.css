@@ -330,8 +330,8 @@ Ejercicio Marcos, Coordenadas y Organización Básica.
     justify-content: center; /* Centrado horizontal del header interno. */
     align-items: center; /* Centrado vertical del header interno. */
     text-align: center; /*Centrar Vertical*/
-}
-
+    }
+ 
 #Titulo4 {
     margin-top: 10px; /*Encabezado Bajar o subir */
     margin-bottom: 10px; /*Bajar elementos que estan debajo*/
@@ -363,7 +363,7 @@ Ejercicio Marcos, Coordenadas y Organización Básica.
 .padre4 {
     display: flex; /* Contenedor Responsive Flexible */
     flex-direction: column; /*Jugar: Fila (row) - Columna*/ /*JUGAR*/
-    border: 20px solid #5124b9; /* Color de Borde */
+    border: 20px solid #5630ad; /* Color de Borde */
     border-radius: 10px; /*Redondea esquinas borde*/
     background-color: #59479; /*Fondo Color*/
     height: auto; /*altura - Vertical*/
