@@ -17,7 +17,7 @@ background-color: rgb(146, 97, 24); /* Color de Fondo */
     height: auto; /* Altura */
     width: auto; /* Anchura */
     position: relative; /* Activar Posicionamiesnto de Coordenadas */
-    float: left; /* Posición Izquierda */<
+    float: left; /* Posición Izquierda */
     left: 0px; /* Desplazamiento Horizontal */
     top: 0px; /* Desplazamiento Vertical */
     margin-top: 0px; /* Encabezado Bajar o subir */
@@ -305,10 +305,10 @@ background-color: rgb(146, 97, 24); /* Color de Fondo */
 
 /* UBICACIÓN - POSICIONAMIENTO */
 /* ============================================================ */
-AJUSTE EDUCATIVO - TRES COLUMNAS VERTICALES
+/*AJUSTE EDUCATIVO - TRES COLUMNAS VERTICALES
 ------------------------------------------------------------
 Ejercicio Marcos, Coordenadas y Organización Básica.
-============================================================ */
+============================================================ 
 
 /* Marcos internos de la columna 1. */
 .hijo4 {
@@ -365,7 +365,7 @@ Ejercicio Marcos, Coordenadas y Organización Básica.
     flex-direction: column; /*Jugar: Fila (row) - Columna*/ /*JUGAR*/
     border: 20px solid #5630ad; /* Color de Borde */
     border-radius: 10px; /*Redondea esquinas borde*/
-    background-color: #59479; /*Fondo Color*/
+    background-color: silver; /*Fondo Color*/
     height: auto; /*altura - Vertical*/
     width: auto; /*altura - Horizontal*/
     position: relative; /*Activar Posicionamiento de Coordenadas*/
