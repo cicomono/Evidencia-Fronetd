@@ -30,6 +30,7 @@ HTML, body {
 
 .padre1 {
     display: flex;
+    flex-direction: column;
     border: 20px solid #c889c2; /* Color de Borde */
     border-radius: 10px; /* Redondea esquinas borde */
     background-color: #f7cffe;
@@ -64,6 +65,7 @@ HTML, body {
 
 .padre2 {
     display: flex;
+    flex-direction: column;
     border: 20px solid #c889c2; /* Color de Borde */
     border-radius: 10px; /* Redondea esquinas borde */
     background-color: #f5e2fa;
@@ -98,6 +100,7 @@ HTML, body {
 
 .padre3 {
     display: flex;
+    flex-direction: column;
     border: 20px solid #c889c2; /* Color de Borde */
     border-radius: 10px; /* Redondea esquinas borde */
     background-color: #f5e2fa;
@@ -116,7 +119,7 @@ HTML, body {
 
 .abuelo1 {
     display: flex;
-    flex-direction: column; /* Ubica los elementos en fila */
+    flex-direction: row;
     border: 20px solid #af0f9f; /* Color de Borde */
     border-radius: 10px; /* Redondea esquinas borde */
     background-color: #3f140d;
@@ -135,7 +138,7 @@ HTML, body {
 
 .abuelo2 {
     display: flex;
-    flex-direction: column; /* Ubica los elementos en fila */
+    flex-direction: row;
     border: 20px solid #af0f9f; /* Color de Borde */
     border-radius: 10px; /* Redondea esquinas borde */
     background-color: #3f140d;

@@ -1,0 +1,291 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
+}
+
+body {
+  /* 1. IMAGEN DE FONDO + FILTRO SEMITRANSPARENTE */
+  background-image: 
+    linear-gradient(
+      rgba(61, 35, 20, 0.75), 
+      rgba(61, 35, 20, 0.75)
+    ), 
+    url('imagenes/Imagen 2.png'); /* Ruta limpia sin barras invertidas */
+
+  /* 2. PROPIEDADES DE LA IMAGEN DE FONDO */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+  background-repeat: no-repeat;
+
+  /* 3. TAMAÑO DE PANTALLA FIJO Y SIN DESPLAZAMIENTOS EXTRAÑOS */
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Evita que la pantalla se mueva hacia los lados */
+
+  /* 4. ALINEACIÓN CENTRADA DEL CONTENEDOR */
+  color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* 1. AJUSTE DEL CONTENEDOR PRINCIPAL */
+.main-container {
+  width: 90%;                  /* Ocupa el 90% del ancho de la pantalla */
+  max-width: 1200px;           /* Limite para que no se deforme en pantallas gigantes */
+  min-width: 950px;            /* Evita que se "enchiquite" si achicas la ventana */
+  margin: 20px auto;           /* Lo centra perfectamente en la pantalla */
+  background-color: #2B2B2B;  
+  border: 3px solid #FFC107; 
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* 2. BLOQUEAR ZOOM INVOLUNTARIO Y DESPLAZAMIENTOS EXTRAÑOS */
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;          /* Elimina barras de desplazamiento horizontales feas */
+}
+
+/* ENCABEZADO */
+.header {
+  background: linear-gradient(135deg, #721C28, #58111A); /* Fondo Vino Tinto */
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  border-bottom: 4px solid #FFC107;
+  margin-bottom: 15px;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo-icon {
+  font-size: 3rem;
+  background: #FFC107;
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+
+.header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  color: #FFC107; /* Amarillo/Dorado */
+}
+
+.header .subtitle {
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+/* NAVEGACIÓN */
+.nav-bar {
+  background-color: #1A1A1A; /* Negro */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #FFC107;
+}
+
+.nav-btn {
+  background-color: #FFC107; /* Amarillo */
+  color: #3D2314; /* Texto Marrón */
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  margin: 4px;
+}
+
+.nav-btn:hover {
+  background-color: #FFFFFF;
+  color: #721C28;
+  transform: translateY(-2px);
+}
+
+/* LAYOUT PRINCIPAL (IZQ - DER) */
+.content-wrapper {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.info-section {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* TARJETAS MISIÓN Y VISIÓN */
+.card {
+  background-color: #FFFFFF; /* Blanco */
+  border-radius: 8px;
+  padding: 15px;
+  border-left: 6px solid #721C28; /* Vino Tinto */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.card h2 {
+  color: #721C28;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.card p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #3D2314;
+  color: #FFC107;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* FORMULARIO LATERAL */
+.aside-form {
+  flex: 1;
+  min-width: 300px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  border-top: 6px solid #FFC107;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.aside-form h3 {
+  color: #721C28;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.form-desc {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #3D2314;
+  margin-bottom: 4px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px 12px;         /* Da más espacio interno */
+  font-size: 1rem;            /* Aumenta la letra principal */
+  border: 2px solid #721C28;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Aumenta el tamaño del texto dentro de la lista desplegable */
+.form-group select option {
+  font-size: 0.95rem;         /* Letra más grande para las opciones */
+  padding: 8px;               /* Espaciado para que no se vean apretadas */
+  color: #1A1A1A;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #721C28;
+  box-shadow: 0 0 4px rgba(114, 28, 40, 0.4);
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: #721C28; /* Vino tinto */
+  color: #FFFFFF;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 5px;
+}
+
+.btn-submit:hover {
+  background-color: #58111A;
+  color: #FFC107;
+}
+
+/* PIE DE PÁGINA */
+.footer {
+  margin-top: 15px;
+  background-color: #721C28;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  border-top: 2px solid #FFC107;
+}
+
+.footer p {
+  margin: 2px 0;
+}

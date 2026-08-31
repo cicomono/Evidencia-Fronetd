@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Cheese - Control de Inventarios</title>
+   <!-- Importar fuentes desde Google Fonts: Great Vibes (Lettering) y Poppins (Lectura) -->
+    <link rel="stylesheet" href="10.1.Maquetacion - Layout.css">
+</head>
+<body>
+    <div class="main-container">
+    
+    <!-- ENCABEZADO -->
+    <header class="header">
+      <div class="logo-box">
+        <span class="logo-icon">🧀</span>
+        <div>
+          <h1>ROYAL CHEESE</h1>
+          <p class="subtitle">S.I. CONTROL Y GESTIÓN DE INVENTARIO DE QUESOS</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="nav-bar">
+      <a href="#" class="nav-btn">Gestión de Productos</a>
+      <a href="#" class="nav-btn">Control de Stock</a>
+      <a href="#" class="nav-btn">Entradas y Salidas</a>
+      <a href="#" class="nav-btn">Ver Informes</a>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="content-wrapper">
+      
+      <!-- SECCIÓN IZQUIERDA: MISIÓN Y VISIÓN -->
+      <main class="info-section">
+        
+        <article class="card">
+          <h2>MISIÓN</h2>
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&w=500&q=80" alt="Quesos de calidad">
+          </div>
+          <p>
+            En <strong>Royal Cheese</strong> tenemos la misión de garantizar la máxima excelencia en la producción, maduración y distribución de quesos madurados y frescos, optimizando el control de inventarios para ofrecer frescura y calidad insuperable a nuestros clientes.
+          </p>
+          <span class="badge">Sección 1</span>
+        </article>
+
+        <article class="card">
+          <h2>VISIÓN</h2>
+          <div class="card-image">
+            <img src="imagenes/quesos empresa.png" alt="Cava de quesos">
+          </div>
+          <p>
+            Para el año 2030, ser la empresa líder en el sector lácteo y artesanal a nivel nacional, reconocida por la trazabilidad, innovación tecnológica en nuestros procesos de inventario y el sabor distintivo de nuestros productos.
+          </p>
+          <span class="badge">Sección 2</span>
+        </article>
+
+      </main>
+
+      <!-- SECCIÓN DERECHA: FORMULARIO -->
+      <aside class="aside-form">
+        <h3>REGISTRO DE INVENTARIO</h3>
+        <p class="form-desc">Ingreso y salida de lotes de queso</p>
+
+        <form>
+          <div class="form-group">
+            <label for="idLote">Id. Lote / Movimiento:</label>
+            <input type="text" id="idLote" placeholder="Ej: LT-9942" required>
+          </div>
+
+          <div class="form-group">
+            <label for="codProducto">Código del Queso:</label>
+            <input type="text" id="codProducto" placeholder="Ingrese # de Código" required>
+          </div>
+
+          <div class="form-group">
+            <label for="fechaRegistro">Fecha y Hora Actual:</label>
+            <input type="datetime-local" id="fechaRegistro" required>
+          </div>
+
+          <div class="form-group">
+            <label for="tipoQueso">Categoría / Tipo de Queso:</label>
+            <select id="tipoQueso" required>
+              <option value="">Seleccione una opción...</option>
+              <option value="fresco">Queso Fresco / Blanco</option>
+              <option value="madurado">Queso Madurado (Parmesano, Gouda, etc.)</option>
+              <option value="semimadurado">Queso Semimadurado</option>
+              <option value="crema">Queso Crema / Untable</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="fechaVencimiento">Fecha de Vencimiento:</label>
+            <input type="date" id="fechaVencimiento" required>
+          </div>
+
+          <div class="form-group">
+            <label for="novedades">Novedades / Observaciones:</label>
+            <textarea id="novedades" rows="3" placeholder="Detalles de calidad o stock..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Registrar Movimiento</button>
+        </form>
+      </aside>
+
+    </div>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+      <p><strong>Planta Principal Royal Cheese:</strong> Av. Industrial Quesera #12-45</p>
+      <p>Teléfonos: (601) 389-6322 | Correo: contacto@royalcheese.com</p>
+    </footer>
+
+  </div>
+</body>
+</html>

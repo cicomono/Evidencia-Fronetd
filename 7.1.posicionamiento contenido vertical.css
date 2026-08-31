@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   MARCO PRINCIPAL DE LA PÁGINA
+========================================= */
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-color: rgb(175, 180, 183);
+    border: 8px solid #4f1c17;
+    padding: 15px;
+}
+
+
+/* =========================================
+   ABUELO - CONTENEDOR DE LAS 3 COLUMNAS
+========================================= */
+
+.abuelo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+
+    width: 620px;
+
+    background-color: #3f5850;
+
+    border: 10px solid #291110;
+    border-radius: 2px;
+
+    padding: 12px;
+}
+
+
+/* =========================================
+   COLUMNAS
+========================================= */
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 12px;
+
+    width: 180px;
+
+    background-color: #8eb798;
+
+    border: 8px solid #82ab85;
+    border-radius: 2px;
+
+    padding: 10px;
+}
+
+
+/* =========================================
+   TARJETAS
+========================================= */
+
+.tarjeta {
+    width: 145px;
+    height: 145px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(245, 230, 230);
+
+    border: 7px solid #384a26;
+    border-radius: 2px;
+
+    padding: 8px;
+}
+
+
+/* =========================================
+   TITULO HEADER
+========================================= */
+
+.tarjeta h1 {
+    width: 100%;
+
+    background-color: rgb(109, 189, 102);
+
+    color: black;
+
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+
+    text-align: center;
+
+    padding: 4px 2px;
+
+    margin-bottom: 8px;
+
+    border-radius: 0;
+}
+
+
+/* =========================================
+   MARCO MORADO DE LA IMAGEN
+========================================= */
+
+.logo {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 105px;
+    height: 78px;
+
+    background-color: rgb(217, 159, 152);
+
+    border: 6px solid #351209;
+    border-radius: 0;
+
+    padding: 4px;
+}
+
+
+/* =========================================
+   IMAGEN
+========================================= */
+
+.logo img {
+    width: 85px;
+    height: 50px;
+
+    object-fit: cover;
+
+    border: 5px solid rgb(54, 14, 14);
+    border-radius: 0;
+
+    padding: 2px;
+}
